@@ -1,0 +1,12 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "resolveJsonModule": true, // Добавляем эту строку
+        "esModuleInterop": true,
+        "jsx": "react-jsx"
+      },
+      "include": ["./src/**/*"]
+    }
